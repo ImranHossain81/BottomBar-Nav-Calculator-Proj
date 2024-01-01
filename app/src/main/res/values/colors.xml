@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="un_weight">#4CAF50</color>
+    <color name="healt">#0C96A8</color>
+    <color name="overweight">#C53E13</color>
+    <color name="obese">#673AB7</color>
 </resources>
