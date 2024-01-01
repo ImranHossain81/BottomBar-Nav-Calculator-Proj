@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/bmiFragment"
+    android:id="@+id/navigation">
+
+    <fragment
+        android:id="@+id/bmiFragment"
+        android:name="com.example.bottombar_nav_calculatorproj.BMI"
+        android:label="fragment_bmi"
+        tools:layout="@layout/fragment_b_m_i" />
+    <fragment
+        android:id="@+id/unitFragment"
+        android:name="com.example.bottombar_nav_calculatorproj.Unit"
+        android:label="fragment_unit"
+        tools:layout="@layout/fragment_unit" />
+    <fragment
+        android:id="@+id/ageFragment"
+        android:name="com.example.bottombar_nav_calculatorproj.Age"
+        android:label="fragment_age"
+        tools:layout="@layout/fragment_age" />
+
+</navigation>
